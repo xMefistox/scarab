@@ -11,7 +11,7 @@ TagManager:
   - Scarab
   - Water
   - UI
-  - 
+  - Torch
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: Scarab
     uniqueID: 1287646543
+    locked: 0
+  - name: Torch
+    uniqueID: 3923498083
     locked: 0

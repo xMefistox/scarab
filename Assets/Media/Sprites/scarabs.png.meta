@@ -110,12 +110,12 @@ TextureImporter:
       name: scarabs_0
       rect:
         serializedVersion: 2
-        x: 95
+        x: 85
         y: 65
-        width: 68
+        width: 87
         height: 92
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,12 +131,12 @@ TextureImporter:
       name: scarabs_1
       rect:
         serializedVersion: 2
-        x: 233
+        x: 225
         y: 65
-        width: 72
+        width: 87
         height: 92
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,12 +152,12 @@ TextureImporter:
       name: scarabs_2
       rect:
         serializedVersion: 2
-        x: 374
+        x: 365
         y: 65
-        width: 68
+        width: 87
         height: 92
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
