@@ -8,6 +8,7 @@ namespace Scarab.Input
     {
         [SerializeField] private CameraController cameraController;
         [SerializeField] private MovementController movementController;
+        [SerializeField] private InteractController interactController;
 
         private InputActions inputActions;
 
@@ -43,7 +44,7 @@ namespace Scarab.Input
 
         private void OnLeftMouseClicked(InputAction.CallbackContext context)
         {
-            Debug.Log($"Left Mouse Clicked! {Mouse.current.position}");
+            interactController.TryInteracting();
         }
     }
 }

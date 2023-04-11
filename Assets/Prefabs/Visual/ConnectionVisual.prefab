@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 2783599036690707853}
   - component: {fileID: 2783599036690027369}
   - component: {fileID: 2783599036699654531}
+  - component: {fileID: 4984461641647300959}
   m_Layer: 0
-  m_Name: Connection
+  m_Name: ConnectionVisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2783599036693020061}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.025972132, y: -0.020246446, z: 0}
-  m_LocalScale: {x: 0.06666667, y: 0.1, z: 0.06666667}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2783599036690707853
 MeshRenderer:
@@ -98,8 +99,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_templateMaterial: {fileID: 2100000, guid: 974b33ccbd786464a825203eb88b8dab, type: 2}
   m_doNotOverwriteTemplateMaterialProperties: 0
-  m_startPos: {x: 0, y: 0.5, z: 0}
+  m_startPos: {x: 0, y: 0, z: 0}
   m_endPos: {x: 0, y: 0, z: 0}
   m_lineColor: {r: 0, g: 1, b: 1, a: 1}
-  m_lineWidth: 0.5
+  m_lineWidth: 0.1
   m_lightSaberFactor: 0.8
+--- !u!114 &4984461641647300959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2783599036693020061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d91eb467eafc54141a329a9bebdeb4e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumetricLineBehaviour: {fileID: 2783599036699654531}
