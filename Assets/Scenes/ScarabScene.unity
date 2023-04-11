@@ -786,7 +786,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: d2226e5be41fb334981a7d1ad22ed2e5, type: 2}
+      objectReference: {fileID: 2100000, guid: 2b35fb525ba90ef488cf17ea8c090027, type: 2}
     - target: {fileID: 540518231625953221, guid: c5b8d217063f48f4fa0c45c5e8dcee3b,
         type: 3}
       propertyPath: m_RootOrder
@@ -845,7 +845,7 @@ PrefabInstance:
     - target: {fileID: 7273597478197567794, guid: c5b8d217063f48f4fa0c45c5e8dcee3b,
         type: 3}
       propertyPath: m_Name
-      value: Floor (1)
+      value: Roof
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -12,21 +12,34 @@ namespace Scarab.RiddleLogic
         [SerializeField] private InteractController interactController;
         [SerializeField] private ScarabController[] scarabControllers;
         [SerializeField] private ConnectionVisualSpawner connectionVisualSpawner;
+        [SerializeField] private GameObject ResetButton;
 
         private ScarabController lastSelectedScarab;
         private Stack<ScarabController> activatedScarabs = new Stack<ScarabController>();
 
         private void OnEnable()
         {
-            interactController.OnInteracted += OnScarabInteracted;
+            interactController.OnScarabClicked += OnScarabClicked;
+            interactController.OnResetButtonClicked += OnResetButtonClicked;
+            ResetButton.SetActive(false);
         }
 
         private void OnDisable()
         {
-            interactController.OnInteracted -= OnScarabInteracted;
+            interactController.OnScarabClicked -= OnScarabClicked;
+            interactController.OnResetButtonClicked -= OnResetButtonClicked;
         }
 
-        private void OnScarabInteracted(GameObject scarabVisual)
+        private void OnResetButtonClicked()
+        {
+            ResetButton.gameObject.SetActive(false);
+            while(activatedScarabs.Count > 0)
+            {
+                RevertLastSelectionAndConnection(lastSelectedScarab);
+            }
+        }
+
+        private void OnScarabClicked(GameObject scarabVisual)
         {
             ScarabController newSelectedScarab = Array.Find(scarabControllers, scarabController => scarabController.VisualController.gameObject == scarabVisual);
             if (newSelectedScarab != null)
@@ -47,7 +60,7 @@ namespace Scarab.RiddleLogic
                     case ScarabState.Selected:
                         if (lastSelectedScarab == newSelectedScarab)
                         {
-                            DeactivateNewestConnection(newSelectedScarab);
+                            RevertLastSelectionAndConnection(lastSelectedScarab);
                         }
                         break;
                     case ScarabState.Active:
@@ -55,6 +68,8 @@ namespace Scarab.RiddleLogic
                         break;
                 }
             }
+
+            ResetButton.gameObject.SetActive(lastSelectedScarab != null);
         }
 
         private void CheckSolveConditions()
@@ -95,7 +110,7 @@ namespace Scarab.RiddleLogic
             CheckSolveConditions();
         }
 
-        private void DeactivateNewestConnection(ScarabController selectedScarabToDeactivate)
+        private void RevertLastSelectionAndConnection(ScarabController selectedScarabToDeactivate)
         {
             selectedScarabToDeactivate.SetScarabSelection(false);
             if (activatedScarabs.Count > 0)

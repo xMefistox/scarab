@@ -77,7 +77,7 @@ namespace Scarab.RiddleLogic
 
         internal bool AllNeighboursConnected()
         {
-            return neighboursDictionary.Values.Any(isConnection => isConnection == false);
+            return neighboursDictionary.Values.Any(isConnection => isConnection == true);
         }
     }
 }
