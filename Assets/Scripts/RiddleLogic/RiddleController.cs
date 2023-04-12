@@ -13,6 +13,7 @@ namespace Scarab.RiddleLogic
         [SerializeField] private ScarabController[] scarabControllers;
         [SerializeField] private ConnectionVisualSpawner connectionVisualSpawner;
         [SerializeField] private GameObject ResetButton;
+        [SerializeField] private ParticleSystem winParticles;
 
         private ScarabController lastSelectedScarab;
         private Stack<ScarabController> activatedScarabs = new Stack<ScarabController>();
@@ -21,7 +22,7 @@ namespace Scarab.RiddleLogic
         {
             interactController.OnScarabClicked += OnScarabClicked;
             interactController.OnResetButtonClicked += OnResetButtonClicked;
-            ResetButton.SetActive(false);
+            OnResetButtonClicked();
         }
 
         private void OnDisable()
@@ -30,13 +31,31 @@ namespace Scarab.RiddleLogic
             interactController.OnResetButtonClicked -= OnResetButtonClicked;
         }
 
+        private void Update()
+        {
+            if(UnityEngine.Input.GetKeyDown(KeyCode.Z) && gameObject.name=="RiddleWall")
+            {
+                foreach(ScarabController scarabController in scarabControllers)
+                {
+                    foreach(ScarabController neighbour in scarabController.neighboursList)
+                    {
+                        TryActivateConnectionBetweenScarabs(scarabController, neighbour);
+                    }
+                }
+                ActivateScarab(lastSelectedScarab);
+            }
+        }
+
+
         private void OnResetButtonClicked()
         {
-            ResetButton.gameObject.SetActive(false);
-            while(activatedScarabs.Count > 0)
+            connectionVisualSpawner.Reset();
+            foreach(ScarabController scarabController in scarabControllers)
             {
-                RevertLastSelectionAndConnection(lastSelectedScarab);
+                scarabController.Reset();
             }
+            activatedScarabs.Clear();
+            lastSelectedScarab = null;
         }
 
         private void OnScarabClicked(GameObject scarabVisual)
@@ -74,12 +93,13 @@ namespace Scarab.RiddleLogic
 
         private void CheckSolveConditions()
         {
-            if (scarabControllers.Any(scarab => !scarab.AllNeighboursConnected()))
+            if (scarabControllers.Any(scarab => scarab.AtLeastOneNeighbourIsNotConnected()))
             {
                 return;
             }
             ActivateScarab(lastSelectedScarab);
-            Debug.Log("win!");
+            winParticles.gameObject.SetActive(true);
+            winParticles.Play();
         }
 
         private void SelectScarab(ScarabController scarabController)
@@ -125,6 +145,7 @@ namespace Scarab.RiddleLogic
             }
             else
             {
+                selectedScarabToDeactivate.SetScarabSelection(false);
                 lastSelectedScarab = null;
             }
         }

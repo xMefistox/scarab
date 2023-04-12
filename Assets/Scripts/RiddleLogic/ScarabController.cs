@@ -11,7 +11,7 @@ namespace Scarab.RiddleLogic
         [field: SerializeField] public ScarabState State { get; private set; }
         [field: SerializeField] public ScarabVisualController VisualController { get; private set; }
 
-        [SerializeField] private List<ScarabController> neighboursList = new List<ScarabController>();
+        [SerializeField] public List<ScarabController> neighboursList = new List<ScarabController>();
 
         private Dictionary<ScarabController, bool> neighboursDictionary = new Dictionary<ScarabController, bool>();
 
@@ -47,7 +47,11 @@ namespace Scarab.RiddleLogic
 
         internal bool IsConnectionActive(ScarabController neighbourScarab)
         {
-            return neighboursDictionary[neighbourScarab];
+            if (neighboursDictionary.ContainsKey(neighbourScarab))
+            {
+                return neighboursDictionary[neighbourScarab];
+            }
+            return false;
         }
 
         internal void SetScarabSelection(bool isSelected)
@@ -69,15 +73,25 @@ namespace Scarab.RiddleLogic
             }
         }
 
+        internal void Reset()
+        {
+            activationCount = 0;
+            SetScarabState(ScarabState.Inactive);
+            foreach (bool isConnection in neighboursDictionary.Values)
+            {
+                isConnection = false;
+            }
+        }
+
         private void SetScarabState(ScarabState state)
         {
             State = state;
             VisualController.ChangeScarabVisual((ScarabVisualState)state);
         }
 
-        internal bool AllNeighboursConnected()
+        internal bool AtLeastOneNeighbourIsNotConnected()
         {
-            return neighboursDictionary.Values.Any(isConnection => isConnection == true);
+            return neighboursDictionary.Values.Any(isConnection => isConnection == false);
         }
     }
 }

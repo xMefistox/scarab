@@ -38,7 +38,17 @@ namespace Scarab.RiddleVisual
             if (connection != null)
             {
                 pool.Release(connection);
+                activatedConnections.Remove(connection);
             }
+        }
+
+        internal void Reset()
+        {
+            foreach(ConnectionVisual connection in activatedConnections)
+            {
+                pool.Release(connection);
+            }
+            activatedConnections.Clear();
         }
     }
 }
