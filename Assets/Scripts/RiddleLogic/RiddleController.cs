@@ -22,7 +22,8 @@ namespace Scarab.RiddleLogic
         {
             interactController.OnScarabClicked += OnScarabClicked;
             interactController.OnResetButtonClicked += OnResetButtonClicked;
-            OnResetButtonClicked();
+            ResetButton.SetActive(false);
+            winParticles.gameObject.SetActive(false);
         }
 
         private void OnDisable()
@@ -31,7 +32,7 @@ namespace Scarab.RiddleLogic
             interactController.OnResetButtonClicked -= OnResetButtonClicked;
         }
 
-        private void Update()
+/*        private void Update() // CHEAT FOR DEBUG PURPOSES
         {
             if(UnityEngine.Input.GetKeyDown(KeyCode.Z) && gameObject.name=="RiddleWall")
             {
@@ -44,11 +45,13 @@ namespace Scarab.RiddleLogic
                 }
                 ActivateScarab(lastSelectedScarab);
             }
-        }
+        }*/
 
 
         private void OnResetButtonClicked()
         {
+            ResetButton.SetActive(false);
+            winParticles.gameObject.SetActive(false);
             connectionVisualSpawner.Reset();
             foreach(ScarabController scarabController in scarabControllers)
             {

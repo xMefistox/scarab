@@ -18,7 +18,7 @@ namespace Scarab.RiddleVisual
             pool = new ObjectPool<ConnectionVisual>(
                 () => { return Instantiate(connectionVisualPrefab); },
                 connection => { connection.gameObject.SetActive(true); },
-                connection => { connection.gameObject.SetActive(false); },
+                connection => { connection.HideConnection(); },
                 connection => { Destroy(connection.gameObject); },
                 false, 45);
         }

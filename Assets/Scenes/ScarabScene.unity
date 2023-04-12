@@ -2032,6 +2032,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraToRaycast: {fileID: 330585545}
   raycastPosition: {x: 0.5, y: 0.5}
+  scarabLayerString: Scarab
+  resetButtonLayerString: Reset
 --- !u!21 &1127206633
 Material:
   serializedVersion: 8
@@ -3678,11 +3680,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1263269676}
     m_Modifications:
-    - target: {fileID: 263490599145274145, guid: 0eaba0eaba986374bbc1008bdf587b21,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1114518083008985916, guid: 0eaba0eaba986374bbc1008bdf587b21,
         type: 3}
       propertyPath: m_Name
@@ -3748,8 +3745,7 @@ PrefabInstance:
       propertyPath: interactController
       value: 
       objectReference: {fileID: 890704768}
-    m_RemovedComponents:
-    - {fileID: 911573493190768533, guid: 0eaba0eaba986374bbc1008bdf587b21, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

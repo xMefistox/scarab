@@ -14,6 +14,8 @@ namespace Scarab.RiddleVisual
 
         [SerializeField] private VolumetricLineBehavior volumetricLineBehaviour;
 
+        private Sequence hideSequence;
+
         public void SetConnection(Vector3 firstScarabPos, Vector3 secondScarabPos)
         {
             transform.DOLocalMoveZ(fixedZPosition, 0f);
@@ -27,7 +29,10 @@ namespace Scarab.RiddleVisual
 
         public void HideConnection()
         {
-            DOTween.To(() => volumetricLineBehaviour.LineWidth, x => volumetricLineBehaviour.LineWidth = x, 0f, lineWidthDuration);
+            hideSequence = DOTween.Sequence();
+            hideSequence.Append(DOTween.To(() => volumetricLineBehaviour.LineWidth, x => volumetricLineBehaviour.LineWidth = x, 0f, lineWidthDuration));
+            hideSequence.AppendCallback(() => gameObject.SetActive(false));
+            hideSequence.Play();
         }
     }
 }

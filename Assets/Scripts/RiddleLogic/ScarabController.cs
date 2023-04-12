@@ -77,16 +77,20 @@ namespace Scarab.RiddleLogic
         {
             activationCount = 0;
             SetScarabState(ScarabState.Inactive);
-            foreach (bool isConnection in neighboursDictionary.Values)
+            foreach (ScarabController neighbour in neighboursList)
             {
-                isConnection = false;
+                neighboursDictionary[neighbour] = false;
+
             }
         }
 
         private void SetScarabState(ScarabState state)
         {
-            State = state;
-            VisualController.ChangeScarabVisual((ScarabVisualState)state);
+            if(State != state)
+            {
+                State = state;
+                VisualController.ChangeScarabVisual((ScarabVisualState)state);
+            }
         }
 
         internal bool AtLeastOneNeighbourIsNotConnected()
