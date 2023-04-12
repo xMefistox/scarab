@@ -23,6 +23,7 @@ namespace Scarab.Input
             inputActions.Player.MouseY.performed += ctx => mouseInput.y = ctx.ReadValue<float>();
             inputActions.Player.LeftMouse.performed += OnLeftMouseClicked;
             inputActions.Player.Movement.performed += ctx => movementInput = ctx.ReadValue<Vector2>();
+            inputActions.Player.CloseGame.performed += ctx => Application.Quit();
         }
 
         private void OnEnable()

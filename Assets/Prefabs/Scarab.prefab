@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 20
   m_IsActive: 1
 --- !u!4 &3436271123589928812
 Transform:
@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <State>k__BackingField: 0
   <VisualController>k__BackingField: {fileID: 7303764736851388864}
+  neighboursList: []
 --- !u!1001 &9171725081220292189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59,6 +60,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab Visual
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 0a1dc9a567539fc44afcbf79e9609dbd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 0a1dc9a567539fc44afcbf79e9609dbd,
         type: 3}

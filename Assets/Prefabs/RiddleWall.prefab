@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2524658514365252401
 Transform:
@@ -4856,7 +4856,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2603880071327508244
 Transform:
@@ -9696,7 +9696,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &784060858766212334
 Transform:
@@ -14538,7 +14538,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &9066722572299597848
 Transform:
@@ -19560,7 +19560,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &7425189383264973863
 Transform:
@@ -19713,7 +19713,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8554341603837286443
 Transform:
@@ -24553,7 +24553,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &73987521197808372
 Transform:
@@ -29393,7 +29393,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &5592462764243914794
 Transform:
@@ -34234,7 +34234,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 0
 --- !u!4 &939616458296027825
 Transform:
@@ -34372,7 +34372,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &965464614030437191
 Transform:
@@ -34420,7 +34420,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &6009656812562751670
 Transform:
@@ -39260,7 +39260,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &4190370848109270729
 Transform:
@@ -44102,7 +44102,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &7024836025578392674
 Transform:
@@ -49124,7 +49124,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &3098209104073342658
 Transform:
@@ -54144,7 +54144,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &6265450877581781013
 Transform:
@@ -58984,7 +58984,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2799400007998204842
 Transform:
@@ -63822,7 +63822,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8199615668074067864
 Transform:
@@ -63880,7 +63880,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &7816852363287890607
 Transform:
@@ -68720,7 +68720,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1456399143825966269
 Transform:
@@ -73560,7 +73560,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &7947527266065240004
 Transform:
@@ -78400,7 +78400,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &6431341938048531688
 Transform:
@@ -83240,7 +83240,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 0
 --- !u!4 &8538280705086547986
 Transform:
@@ -88088,7 +88088,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8530226590869172016
 Transform:
@@ -93072,7 +93072,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8530016940389720538
 Transform:
@@ -97912,7 +97912,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8538613207359118856
 Transform:
@@ -102752,7 +102752,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8538385546281708628
 Transform:
@@ -107592,7 +107592,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8538397911034157352
 Transform:
@@ -112432,7 +112432,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8538442392519950956
 Transform:
@@ -117274,7 +117274,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &8530119419446918946
 Transform:
@@ -122294,7 +122294,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1888859513031712666
 Transform:
@@ -127136,7 +127136,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &2437343519799847885
 Transform:
@@ -132156,7 +132156,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &1477348054245219500
 Transform:
@@ -136993,6 +136993,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scarab (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
       propertyPath: m_RootOrder
@@ -137063,6 +137068,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 7251376702667491031}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -137149,10 +137159,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5091333740810628406, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5091497451449804504, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5091604829126102154, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5092009130738619522, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5093531670522846370, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5648278982033327171, guid: 5b5494249ceecd74ab697a89ba546a7f,
         type: 3}
       propertyPath: m_Name
       value: Torch (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5648278982033327171, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -137177,6 +137217,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -137263,6 +137308,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[4]
       value: 
       objectReference: {fileID: 3221193010950585236}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -137298,6 +137348,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -137369,6 +137424,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 5373920577346386023}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -137404,6 +137464,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -137495,6 +137560,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[5]
       value: 
       objectReference: {fileID: 8983584582359990157}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -137530,6 +137600,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -137611,6 +137686,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[3]
       value: 
       objectReference: {fileID: 6944479894094172516}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -137646,6 +137726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -137717,6 +137802,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 8983584582359990157}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -137752,6 +137842,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -137823,6 +137918,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 7251376702667491031}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -137858,6 +137958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -137939,6 +138044,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[3]
       value: 
       objectReference: {fileID: 6944479894094172516}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -138005,25 +138115,50 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5091333740810628406, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5091497451449804504, guid: 5b5494249ceecd74ab697a89ba546a7f,
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5091497451449804504, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5091604829126102154, guid: 5b5494249ceecd74ab697a89ba546a7f,
         type: 3}
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5091604829126102154, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5092009130738619522, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5092009130738619522, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5093531670522846370, guid: 5b5494249ceecd74ab697a89ba546a7f,
         type: 3}
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5093531670522846370, guid: 5b5494249ceecd74ab697a89ba546a7f,
         type: 3}
-      propertyPath: m_Layer
-      value: 0
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5648278982033327171, guid: 5b5494249ceecd74ab697a89ba546a7f,
         type: 3}
@@ -138034,6 +138169,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5648278982033327171, guid: 5b5494249ceecd74ab697a89ba546a7f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -138058,6 +138198,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -138129,6 +138274,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 2751455999042926831}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -138164,6 +138314,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -138235,6 +138390,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 6581009447892140165}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -138270,6 +138430,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -138351,6 +138516,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[3]
       value: 
       objectReference: {fileID: 3061156296664009090}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -138391,6 +138561,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3199828466441151436, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -138472,6 +138647,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 6944479894094172516}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -138507,6 +138687,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -138598,6 +138783,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[5]
       value: 
       objectReference: {fileID: 7202499354816973428}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -138633,6 +138823,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -138724,6 +138919,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[5]
       value: 
       objectReference: {fileID: 3061156296664009090}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -138759,6 +138959,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -138830,6 +139035,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 5180302987270273638}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -138865,6 +139075,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -138946,6 +139161,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[3]
       value: 
       objectReference: {fileID: 3061156296664009090}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -138981,6 +139201,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -139052,6 +139277,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 6944479894094172516}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -139087,6 +139317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -139163,6 +139398,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[2]
       value: 
       objectReference: {fileID: 7997385324741061854}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -139198,6 +139438,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -139269,6 +139514,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 8983584582359990157}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -139304,6 +139554,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -139385,6 +139640,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[3]
       value: 
       objectReference: {fileID: 6944479894094172516}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -139420,6 +139680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -139491,6 +139756,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 5180302987270273638}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -139526,6 +139796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -139597,6 +139872,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 5818726995690085775}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -139632,6 +139912,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -139723,6 +140008,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[5]
       value: 
       objectReference: {fileID: 3061156296664009090}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -139758,6 +140048,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -139849,6 +140144,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[5]
       value: 
       objectReference: {fileID: 6944479894094172516}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -139884,6 +140184,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567988971423449388, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 1a031c43eef67ae4eb2785fccabc991e,
         type: 3}
@@ -139955,6 +140260,11 @@ PrefabInstance:
       propertyPath: neighboursList.Array.data[1]
       value: 
       objectReference: {fileID: 2751455999042926831}
+    - target: {fileID: 7676982562736168817, guid: 1a031c43eef67ae4eb2785fccabc991e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

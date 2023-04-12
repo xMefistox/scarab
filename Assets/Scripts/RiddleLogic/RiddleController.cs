@@ -1,3 +1,4 @@
+using Scarab.Audio;
 using Scarab.Input;
 using Scarab.RiddleVisual;
 using System;
@@ -17,6 +18,8 @@ namespace Scarab.RiddleLogic
 
         private ScarabController lastSelectedScarab;
         private Stack<ScarabController> activatedScarabs = new Stack<ScarabController>();
+
+        private bool riddleSolved;
 
         private void OnEnable()
         {
@@ -47,7 +50,6 @@ namespace Scarab.RiddleLogic
             }
         }*/
 
-
         private void OnResetButtonClicked()
         {
             ResetButton.SetActive(false);
@@ -59,10 +61,15 @@ namespace Scarab.RiddleLogic
             }
             activatedScarabs.Clear();
             lastSelectedScarab = null;
+            riddleSolved = false;
         }
 
         private void OnScarabClicked(GameObject scarabVisual)
         {
+            if(riddleSolved)
+            {
+                return;
+            }
             ScarabController newSelectedScarab = Array.Find(scarabControllers, scarabController => scarabController.VisualController.gameObject == scarabVisual);
             if (newSelectedScarab != null)
             {
@@ -103,6 +110,9 @@ namespace Scarab.RiddleLogic
             ActivateScarab(lastSelectedScarab);
             winParticles.gameObject.SetActive(true);
             winParticles.Play();
+            AudioManager.RiddleSolved();
+            ResetButton.SetActive(true);
+            riddleSolved = true;
         }
 
         private void SelectScarab(ScarabController scarabController)

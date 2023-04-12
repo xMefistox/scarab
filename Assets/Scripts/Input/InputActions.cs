@@ -64,6 +64,15 @@ namespace Scarab.Input
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CloseGame"",
+                    ""type"": ""Button"",
+                    ""id"": ""ac25565a-c95c-4fad-a98e-dd3146e2a73a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -154,6 +163,17 @@ namespace Scarab.Input
                     ""action"": ""MouseY"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e2fcb5d1-a928-48bc-837a-1ecbeb042723"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CloseGame"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -166,6 +186,7 @@ namespace Scarab.Input
             m_Player_LeftMouse = m_Player.FindAction("LeftMouse", throwIfNotFound: true);
             m_Player_MouseX = m_Player.FindAction("MouseX", throwIfNotFound: true);
             m_Player_MouseY = m_Player.FindAction("MouseY", throwIfNotFound: true);
+            m_Player_CloseGame = m_Player.FindAction("CloseGame", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -231,6 +252,7 @@ namespace Scarab.Input
         private readonly InputAction m_Player_LeftMouse;
         private readonly InputAction m_Player_MouseX;
         private readonly InputAction m_Player_MouseY;
+        private readonly InputAction m_Player_CloseGame;
         public struct PlayerActions
         {
             private @InputActions m_Wrapper;
@@ -239,6 +261,7 @@ namespace Scarab.Input
             public InputAction @LeftMouse => m_Wrapper.m_Player_LeftMouse;
             public InputAction @MouseX => m_Wrapper.m_Player_MouseX;
             public InputAction @MouseY => m_Wrapper.m_Player_MouseY;
+            public InputAction @CloseGame => m_Wrapper.m_Player_CloseGame;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -260,6 +283,9 @@ namespace Scarab.Input
                 @MouseY.started += instance.OnMouseY;
                 @MouseY.performed += instance.OnMouseY;
                 @MouseY.canceled += instance.OnMouseY;
+                @CloseGame.started += instance.OnCloseGame;
+                @CloseGame.performed += instance.OnCloseGame;
+                @CloseGame.canceled += instance.OnCloseGame;
             }
 
             private void UnregisterCallbacks(IPlayerActions instance)
@@ -276,6 +302,9 @@ namespace Scarab.Input
                 @MouseY.started -= instance.OnMouseY;
                 @MouseY.performed -= instance.OnMouseY;
                 @MouseY.canceled -= instance.OnMouseY;
+                @CloseGame.started -= instance.OnCloseGame;
+                @CloseGame.performed -= instance.OnCloseGame;
+                @CloseGame.canceled -= instance.OnCloseGame;
             }
 
             public void RemoveCallbacks(IPlayerActions instance)
@@ -299,6 +328,7 @@ namespace Scarab.Input
             void OnLeftMouse(InputAction.CallbackContext context);
             void OnMouseX(InputAction.CallbackContext context);
             void OnMouseY(InputAction.CallbackContext context);
+            void OnCloseGame(InputAction.CallbackContext context);
         }
     }
 }

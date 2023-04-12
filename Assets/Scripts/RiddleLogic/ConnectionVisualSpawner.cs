@@ -8,14 +8,14 @@ namespace Scarab.RiddleVisual
 {
     internal class ConnectionVisualSpawner : MonoBehaviour
     {
-        [SerializeField] private ConnectionVisual connectionVisualPrefab;
+        [SerializeField] private ConnectionVisualController connectionVisualPrefab;
         [SerializeField] private int spawnAmount;
-        private ObjectPool<ConnectionVisual> pool;
-        private List<ConnectionVisual> activatedConnections = new List<ConnectionVisual>();
+        private ObjectPool<ConnectionVisualController> pool;
+        private List<ConnectionVisualController> activatedConnections = new List<ConnectionVisualController>();
 
         private void Awake()
         {
-            pool = new ObjectPool<ConnectionVisual>(
+            pool = new ObjectPool<ConnectionVisualController>(
                 () => { return Instantiate(connectionVisualPrefab); },
                 connection => { connection.gameObject.SetActive(true); },
                 connection => { connection.HideConnection(); },
@@ -25,7 +25,7 @@ namespace Scarab.RiddleVisual
 
         internal void SpawnConnection(ScarabController firstScarab, ScarabController secondScarab)
         {
-            ConnectionVisual connection = pool.Get();
+            ConnectionVisualController connection = pool.Get();
             connection.transform.SetParent(transform, false);
             connection.SetConnection(secondScarab.transform.localPosition, firstScarab.transform.localPosition);
             activatedConnections.Add(connection);
@@ -33,7 +33,7 @@ namespace Scarab.RiddleVisual
 
         internal void DespawnConnection(ScarabController firstScarab, ScarabController secondScarab)
         {
-            ConnectionVisual connection = activatedConnections.Find(connectionVisual => Array.Exists(connectionVisual.ScarabPositions, scarab => scarab == firstScarab.transform.localPosition)
+            ConnectionVisualController connection = activatedConnections.Find(connectionVisual => Array.Exists(connectionVisual.ScarabPositions, scarab => scarab == firstScarab.transform.localPosition)
                                                                                      && Array.Exists(connectionVisual.ScarabPositions, scarab => scarab == secondScarab.transform.localPosition));
             if (connection != null)
             {
@@ -44,7 +44,7 @@ namespace Scarab.RiddleVisual
 
         internal void Reset()
         {
-            foreach(ConnectionVisual connection in activatedConnections)
+            foreach(ConnectionVisualController connection in activatedConnections)
             {
                 pool.Release(connection);
             }

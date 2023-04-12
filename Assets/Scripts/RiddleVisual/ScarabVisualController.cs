@@ -1,7 +1,6 @@
 using DG.Tweening;
-using System;
-using System.Collections;
 using UnityEngine;
+using Scarab.Audio;
 
 namespace Scarab.RiddleVisual
 {
@@ -22,6 +21,7 @@ namespace Scarab.RiddleVisual
             changeStateSequence.AppendCallback(() => transform.localPosition = Vector3.zero);
             changeStateSequence.AppendCallback(() => ChangeScarabSprite(state));
             changeStateSequence.Play();
+            AudioManager.ScarabStateChanged();
         }
 
         private void ChangeScarabSprite(ScarabVisualState state)
