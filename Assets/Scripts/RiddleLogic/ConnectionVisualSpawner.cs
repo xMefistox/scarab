@@ -27,14 +27,14 @@ namespace Scarab.RiddleVisual
         {
             ConnectionVisualController connection = pool.Get();
             connection.transform.SetParent(transform, false);
-            connection.SetConnection(secondScarab.transform.localPosition, firstScarab.transform.localPosition);
+            connection.SetConnection(secondScarab.transform.position, firstScarab.transform.position);
             activatedConnections.Add(connection);
         }
 
         internal void DespawnConnection(ScarabController firstScarab, ScarabController secondScarab)
         {
-            ConnectionVisualController connection = activatedConnections.Find(connectionVisual => Array.Exists(connectionVisual.ScarabPositions, scarab => scarab == firstScarab.transform.localPosition)
-                                                                                     && Array.Exists(connectionVisual.ScarabPositions, scarab => scarab == secondScarab.transform.localPosition));
+            ConnectionVisualController connection = activatedConnections.Find(connectionVisual => Array.Exists(connectionVisual.ScarabPositions, scarab => scarab == firstScarab.transform.position)
+                                                                                     && Array.Exists(connectionVisual.ScarabPositions, scarab => scarab == secondScarab.transform.position));
             if (connection != null)
             {
                 pool.Release(connection);

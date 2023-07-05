@@ -1,6 +1,4 @@
-using DG.Tweening;
 using UnityEngine;
-using Scarab.Audio;
 
 namespace Scarab.RiddleVisual
 {
@@ -11,17 +9,9 @@ namespace Scarab.RiddleVisual
         [SerializeField] private Sprite selectedSprite;
         [SerializeField] private Sprite activeSprite;
 
-        private Sequence changeStateSequence;
-        private float shakeDuration = 0.25f;
-
         public void ChangeScarabVisual(ScarabVisualState state)
         {
-            changeStateSequence = DOTween.Sequence();
-            changeStateSequence.Append(transform.DOShakePosition(shakeDuration, strength: 0.01f, vibrato: 100));
-            changeStateSequence.AppendCallback(() => transform.localPosition = Vector3.zero);
-            changeStateSequence.AppendCallback(() => ChangeScarabSprite(state));
-            changeStateSequence.Play();
-            AudioManager.ScarabStateChanged();
+            ChangeScarabSprite(state);
         }
 
         private void ChangeScarabSprite(ScarabVisualState state)

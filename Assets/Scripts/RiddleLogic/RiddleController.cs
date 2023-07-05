@@ -1,9 +1,9 @@
-using Scarab.Audio;
 using Scarab.Input;
 using Scarab.RiddleVisual;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 
 namespace Scarab.RiddleLogic
@@ -14,7 +14,7 @@ namespace Scarab.RiddleLogic
         [SerializeField] private ScarabController[] scarabControllers;
         [SerializeField] private ConnectionVisualSpawner connectionVisualSpawner;
         [SerializeField] private GameObject ResetButton;
-        [SerializeField] private ParticleSystem winParticles;
+        [SerializeField] private TextMeshProUGUI winText;
 
         private ScarabController lastSelectedScarab;
         private Stack<ScarabController> activatedScarabs = new Stack<ScarabController>();
@@ -25,8 +25,7 @@ namespace Scarab.RiddleLogic
         {
             interactController.OnScarabClicked += OnScarabClicked;
             interactController.OnResetButtonClicked += OnResetButtonClicked;
-            ResetButton.SetActive(false);
-            winParticles.gameObject.SetActive(false);
+            winText.gameObject.SetActive(false);
         }
 
         private void OnDisable()
@@ -52,8 +51,7 @@ namespace Scarab.RiddleLogic
 
         private void OnResetButtonClicked()
         {
-            ResetButton.SetActive(false);
-            winParticles.gameObject.SetActive(false);
+            winText.gameObject.SetActive(false);
             connectionVisualSpawner.Reset();
             foreach(ScarabController scarabController in scarabControllers)
             {
@@ -108,11 +106,9 @@ namespace Scarab.RiddleLogic
                 return;
             }
             ActivateScarab(lastSelectedScarab);
-            winParticles.gameObject.SetActive(true);
-            winParticles.Play();
-            AudioManager.RiddleSolved();
             ResetButton.SetActive(true);
             riddleSolved = true;
+            winText.gameObject.SetActive(true);
         }
 
         private void SelectScarab(ScarabController scarabController)
