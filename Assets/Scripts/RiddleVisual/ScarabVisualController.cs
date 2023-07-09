@@ -4,28 +4,32 @@ namespace Scarab.RiddleVisual
 {
     public class ScarabVisualController : MonoBehaviour
     {
-        [SerializeField] private SpriteRenderer spriteRenderer;
-        [SerializeField] private Sprite inactiveSprite;
-        [SerializeField] private Sprite selectedSprite;
-        [SerializeField] private Sprite activeSprite;
+        [SerializeField]
+        private MeshRenderer renderer;
+
+        [SerializeField]
+        private Material rockMaterial;
+
+        [SerializeField] 
+        private Material blueMaterial;
+
+        [SerializeField] 
+        private Material goldMaterial;
 
         public void ChangeScarabVisual(ScarabVisualState state)
         {
-            ChangeScarabSprite(state);
-        }
-
-        private void ChangeScarabSprite(ScarabVisualState state)
-        {
-            switch (state)
+            switch(state)
             {
                 case ScarabVisualState.Inactive:
-                    spriteRenderer.sprite = inactiveSprite;
-                    break;
-                case ScarabVisualState.Selected:
-                    spriteRenderer.sprite = selectedSprite;
-                    break;
+                    renderer.material = rockMaterial;
+                        break;
+
                 case ScarabVisualState.Active:
-                    spriteRenderer.sprite = activeSprite;
+                    renderer.material = goldMaterial;
+                    break;
+
+                case ScarabVisualState.Selected:
+                    renderer.material = blueMaterial;
                     break;
             }
         }

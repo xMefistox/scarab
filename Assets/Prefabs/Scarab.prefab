@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567988971423449388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0046, y: 0.056, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -60,11 +60,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scarab Visual
-      objectReference: {fileID: 0}
-    - target: {fileID: 1567988971423449388, guid: 0a1dc9a567539fc44afcbf79e9609dbd,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3436271123589928812, guid: 0a1dc9a567539fc44afcbf79e9609dbd,
         type: 3}
