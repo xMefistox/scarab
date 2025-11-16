@@ -25,12 +25,15 @@ namespace Common
         private void Construct(SignalBus signalBus)
         {
             this.signalBus = signalBus;
+        }
 
+        private void Start()
+        {
             audioSourcePool = new ObjectPool<AudioSource>(
-                    () => { return gameObject.AddComponent<AudioSource>(); },
-                    audioSource => { SetAudioSource(audioSource); },
-                    audioSource => { audioSource.enabled = false; },
-                    audioSource => { Destroy(audioSource); });
+                        () => { return gameObject.AddComponent<AudioSource>(); },
+                        audioSource => { SetAudioSource(audioSource); },
+                        audioSource => { audioSource.enabled = false; },
+                        audioSource => { Destroy(audioSource); });
         }
 
         public void PlayButtonClick()
